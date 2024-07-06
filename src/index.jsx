@@ -1,8 +1,20 @@
 import { React, StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 
+import Header from './components/header/Header';
+import Menu from './components/menu/Menu';
+import Footer from './components/footer/Footer';
+
+import './index.css';
+
 function App() {
-    return <h1>Hello, React!</h1>;
+    return (
+        <div className="container">
+            <Header />
+            <Menu />
+            <Footer />
+        </div>
+    );
 }
 
 // React v18
