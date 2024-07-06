@@ -1,4 +1,7 @@
-function Pizza({ name, ingredients, photoName, price }) {
+function Pizza({ name, ingredients, photoName, price, soldOut }) {
+    // if pizza is sold out do not render component
+    if (soldOut) return null;
+
     return (
         <li className="pizza">
             <img src={photoName} alt={name} />
