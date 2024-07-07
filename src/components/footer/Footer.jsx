@@ -16,7 +16,6 @@ function Footer() {
                     {closeHour}:00.
                 </p>
             )}
-            {/* {new Date().toLocaleTimeString()}. We`re currently open */}
         </footer>
     );
 }
