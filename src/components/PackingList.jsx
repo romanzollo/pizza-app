@@ -1,5 +1,17 @@
+import Item from './Item';
+
+import { initialItems } from '../data/data';
+
 function PackingList() {
-    return <div className="list">Packing List</div>;
+    return (
+        <div className="list">
+            <ul>
+                {initialItems.map((item) => (
+                    <Item key={item.id} item={item} />
+                ))}
+            </ul>
+        </div>
+    );
 }
 
 export default PackingList;

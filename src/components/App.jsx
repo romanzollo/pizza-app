@@ -1,8 +1,8 @@
 // import { useState } from 'react';
-import Logo from './components/Logo.jsx';
-import PackingList from './components/PackingList.jsx';
-import Form from './components/Form.jsx';
-import Stats from './components/Stats.jsx';
+import Logo from './Logo.jsx';
+import PackingList from './PackingList.jsx';
+import Form from './Form.jsx';
+import Stats from './Stats.jsx';
 
 function App() {
     return (
