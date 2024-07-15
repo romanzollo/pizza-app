@@ -16,8 +16,6 @@ function Form({ onAddItem }) {
             id: Date.now(),
         };
 
-        console.log(newItem);
-
         onAddItem(newItem);
 
         setDescription('');
